@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.h1{
+    font-size: 24px;
+    color: #0f5a14;
+    margin-bottom: 10px;
+    position: relative; top: -30px; left: 47px;
+}
+
+.h3{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 20px;
+    position: relative; top: -30px;
+}
+body {
+    background-color: #8c8c8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 30px;
+    border-radius: 35px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    position: relative; top: -2px; left: 1px;
+}
+
+.logo-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    position: relative; top: -35px; left: -6px;
+
+}
+
+/* Estilo para que el logo se vea completo y proporcionado */
+.logo-imagen {
+    width: 160px;          /* Ancho adecuado para mostrar el logo completo */
+    height: auto;          /* Mantiene la proporción original sin recortar */
+    object-fit: contain;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 20px;
+    position: relative; left: 2px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #b0bec5;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff;
+    color: #555;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    border-color: #388e3c;
+}
+
+/* Estilo para la flecha del select */
+select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23333333' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px;
+    cursor: pointer;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 13px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #2e7d32;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #388e3c;
+    text-decoration: underline;
+}
